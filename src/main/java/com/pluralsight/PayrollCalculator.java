@@ -27,7 +27,7 @@ public class PayrollCalculator {
             System.out.printf("%s worked %.2f hours for $%.2f dollars an hour. With an overtime rate of $%.2f an hour. \n Your gross pay is $%.2f", name, hours, payRate, overtimeRate, grossPay);
         }   else {
             grossPay = hours * payRate;
-            System.out.printf("%s worked %.2f hours for $%.2f dollars an hour. \n Your gross pay is $%.2f", name, hours, payRate, grossPay);
+            System.out.printf("%s worked %.2f hours for $%.2f dollars an hour. \n Your gross pay is $%.2f.", name, hours, payRate, grossPay);
         }
     }
 }
