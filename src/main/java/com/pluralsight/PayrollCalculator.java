@@ -7,17 +7,12 @@ public class PayrollCalculator {
         Scanner scanner = new Scanner(System.in);
         System.out.println("Enter your name: ");
         String name = scanner.nextLine();
-
         System.out.println("Enter how many hours you've worked: ");
         double hours = scanner.nextDouble();
-
-
         System.out.println("Enter your pay rate: ");
         double payRate = scanner.nextDouble();
         scanner.nextLine();
-
         double overtimeRate = payRate * 1.5;
-
         double grossPay;
 
         if(hours > 40) {
